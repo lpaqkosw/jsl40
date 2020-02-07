@@ -2,7 +2,9 @@ package app.textstream;
 
 import java.text.DecimalFormat;
 
-public class Student {
+public class Student implements Comparable{
+
+
     int id;
     String name;
     String sex;
@@ -14,15 +16,11 @@ public class Student {
     public String toString() {
         DecimalFormat df = new DecimalFormat("#,###.##");
         StringBuilder sb = new StringBuilder();
-        sb.append(id+"\t");
-        sb.append(name+"\t");
-        sb.append(sex+"\t");
+        sb.append(id+"\t"+name+"\t"+sex+"\t");
         for (int i = 0; i < scores.length; i++) {
             sb.append(scores[i]+"\t");
         }
-        sb.append(tot+"\t");
-        sb.append(df.format(avg)+"\t");
-
+        sb.append(tot+"\t"+df.format(avg)+"\t");
         return sb.toString();
     }
 
@@ -35,5 +33,10 @@ public class Student {
             this.tot += Integer.parseInt(in[i+3]);
         }
         this.avg = (double)tot/3;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return this.name.compareTo(((Student)o).name);
     }
 }
