@@ -1,0 +1,13 @@
+/* Repetitive Statement (while, for)
+ * 1. while (conditional expression)
+ * 2. do( ~ ) While (conditional expression)
+ * 3. for(variable ; initial value; conditional ; Αυ°¨½Δ)
+ */
+public class e4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

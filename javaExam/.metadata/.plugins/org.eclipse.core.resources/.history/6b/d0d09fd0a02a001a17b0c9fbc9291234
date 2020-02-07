@@ -1,0 +1,17 @@
+/*	정수 2개 입력
+ *  두 수의 차이가 10 이상이면
+ *  큰수에 -5, 작은수에 +5
+ */
+
+
+
+public class e4 {
+
+	public static void main(String[] args) {
+
+
+		
+		
+	}
+
+}

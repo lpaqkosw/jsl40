@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+/* 세 개의 정수 중 대,	중,	소
+ * 조건연산자 (조건식)? 참 : 거짓;
+ */
+public class e12	{
+
+	public static void main(String[] args) {
+		
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.print("정수1:");
+		int a = scn.nextInt();
+		System.out.print("정수2:");
+		int b = scn.nextInt();
+		System.out.print("정수3:");
+		int c = scn.nextInt();
+
+		int medium;
+			if(a>b)	{
+				if(b>c)	
+					medium=b;
+				else
+					medium=c;	
+			}	
+			
+			if(a<b)	{
+				if(a>c)	
+					medium=a;
+				else
+					medium=c;
+				
+			}
+			//System.out.println("max=" + max);
+			System.out.println("medium=" +medium);
+			//System.out.println("min=" +min);	
+	}	
+}
+		
+

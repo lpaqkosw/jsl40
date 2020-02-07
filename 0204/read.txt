@@ -1,0 +1,23 @@
+list - > ordered. allow duplicate 
+    ArrayList
+        not synchronized 
+        cannot access the capacity
+    Vector
+        synchronized
+        can access the capacity
+    LinkedList
+
+    **********to sort user defined classes, implement Comparable and override compareTo().***********
+
+
+Set - > unordered, no duplicate, need Iterator
+    hashSet
+    ***********to block duplicate for user defined classes, override equals() and HashCode().**********
+
+
+
+Stack - > implements list
+
+Map -> 
+    HashMap - no synchronized
+    HashTable - synchronized

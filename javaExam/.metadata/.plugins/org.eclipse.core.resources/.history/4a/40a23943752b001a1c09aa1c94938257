@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+/*	keyboard input
+ * 	50~90  input	10 things     output sum
+ */
+public class e8 {
+
+	public static void main(String[] args) {
+	
+		Scanner scn = new Scanner(System.in);
+		int s=0;
+		int i=0;
+		
+		System.out.print("50~90 사이의 정수:");
+		int a= scn.nextInt();
+		
+		while(s<90 && s>50)	{
+			a = scn.nextInt(  );
+			s+=a;
+			i++;
+		
+		
+		if(i==10)
+			break;
+		}
+		System.out.print(s);
+	}
+}
+
+

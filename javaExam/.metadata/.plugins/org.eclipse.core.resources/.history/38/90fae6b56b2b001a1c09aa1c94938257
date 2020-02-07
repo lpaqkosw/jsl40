@@ -1,0 +1,17 @@
+/* 반복문 Repetitive Statement (while, for)
+ * 1. while (조건식 conditional expression)
+ * 2. do( ~ ) While (conditional expression)
+ * 3. for(variable = initial value; conditional ; 증감식)
+ */
+public class e4 {
+
+	public static void main(String[] args) {
+		int x=0;
+		
+		while(false)	{
+			System.out.println("x" +x);
+			x++;
+		}
+	}
+
+}

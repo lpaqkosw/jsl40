@@ -1,0 +1,19 @@
+/*	valet parking cost calculating program 
+ * 	input car number, parking time 
+ * 	car number : 1234
+ * 	parking time :42
+ * 	cost count and represent
+ * 	parking time should be less than 24 hours
+ * 	less than 10 minute : free	
+ * 	10~30 minute : 500 won 
+ * 	after that +500 won in every 10 minute
+ *  cost <= 30000 won
+ */
+public class e3 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

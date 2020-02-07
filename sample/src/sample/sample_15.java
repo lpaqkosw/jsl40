@@ -1,0 +1,14 @@
+package sample;
+
+import java.util.Scanner;
+
+public class sample_15 {
+    public static void main(String[] args) throws Exception {
+       for(int i = 0; i <5;i++){
+           for(int j =0; j< 5;j++){
+               System.out.print("*");
+           }
+           System.out.println();
+       }
+    }
+}

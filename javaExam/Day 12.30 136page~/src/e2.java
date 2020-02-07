@@ -1,0 +1,21 @@
+
+public class e2 {
+
+	public static void main(String[] args) {
+	
+		int a=50;
+		if(a>=80)
+			System.out.println("APPLE");
+			System.out.println("BANANA");
+			System.out.println("CAR");
+			
+		if(a<80) {
+			System.out.println("DANCE");
+			System.out.println("EAGLE");
+		}
+			System.out.println("FIRE");
+			
+			
+	}
+
+}

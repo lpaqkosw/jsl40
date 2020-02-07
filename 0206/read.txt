@@ -1,0 +1,39 @@
+Array vs List:
+    Array stores values
+    List stores address of the Object
+
+TreeSet -> binary tree
+    see: app.a.treeset
+
+TreeMap -> binary tree
+    -sorted map according to keys
+    see: app.a.treemap
+
+
+Comparable & Comparator Interface
+
+Generics
+	- type check for methods and classes that consumes various types of objects
+	- 
+
+MultiThreading:
+    - Thread Class
+        = class that actually has start() and does the multithreading 
+    - Runnable Interface
+        = Thread class has to consume runnable before runnable can run multithreading
+        = ex. Thread thread = new Thread(Runnable); thread.start();
+    - run() vs start()
+        = start() to run multithread
+
+Lambda Functions:
+    (annotation)@FunctionalInterface : annotation for lambda functions
+        - Functional Interface must have only one abstract method
+
+    syntax ex. AAA a = () -> {//TODO;};
+
+
+IOstream: (for networking, down/upload, etc.)
+    -바이트방식(InputStream, OutputStream)
+    -문자방식(Reader, Writer)
+
+    

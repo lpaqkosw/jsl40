@@ -1,0 +1,31 @@
+/* if ()
+ * switch ~ case
+ * 
+ */
+public class e2 {
+
+	public static void main(String[] args) {
+		int var=45;
+		String str="";		//String : 문자열 처리시
+		switch(var/10)	{		//수식 or 변수 (정수, 문자, 문자열)
+			case 10:		//값(정수,문자,문자열)
+				System.out.println('A');	;
+				break;
+			case 9:
+				System.out.println('B');	
+				break;
+			case 8:
+				System.out.println('C');	
+				break;
+			case 7:
+				System.out.println('D');	
+				break;			
+			case 6:
+				System.out.println('E');	
+				break;
+			default :
+				System.out.println('F');	
+		}
+
+	}
+}

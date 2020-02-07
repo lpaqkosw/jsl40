@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+/*	input 10 ints by keyboard
+ * 	output sum
+ */
+public class e7 {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		int s=0;
+		int i=0;
+		int a;
+		while(true)	{
+			a = scn.nextInt(  );
+			s+=a;
+			i++;
+		
+		
+		if(i==10)break;
+		}
+		System.out.print(s);
+	}
+}

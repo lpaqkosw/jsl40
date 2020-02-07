@@ -1,0 +1,70 @@
+02.03
+
+collections framework
+[
+    collection interface
+        - list (subinterface of collection and iterator)
+            - ordered (can be accessed with index)
+            - duplicate o
+            - ex. ArrayList, Vector, LinkedList
+
+        - set (subinterface of collection and iterator)
+            - unordered (cannot be accessed with index)
+            - duplicate x
+            - ex. HashSet
+
+        * map?(map is not a subinterface of collection and iterator)
+            - key value pair
+            - ordered
+            - no duplicate keys
+            - HashMap
+]
+
+Iterator class
+
+
+
+Linux:
+touch - make file
+ls -a
+ls -l
+mkdir
+rm
+rmdir
+
+chmod - change file mode bits (change permission)
+"rwxrwxrwx" = 777
+"rwxr-xr-x" = 755
+
+chown - change file owner and group
+
+
+ps - list running process
+kill {PID}- kill process by PID
+
+MMU:
+swapping 
+thrashing
+workingsets
+
+프로세스관리:
+deadlock
+semaphore
+interrupt
+mutex
+thread
+
+
+가상화:
+클라우드:
+Iaas    Infra
+Paas    Platform
+Saas    Service
+
+리눅스메모리관리:
+cat /proc/meminfo
+
+리눅스프로세스관리:
+ps
+top
+
