@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\JSLHRD\eclipse-workspace\0210"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0207"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0206"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0128"/>
@@ -19,4 +20,11 @@
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0106\0106"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0106"/>
 	</list>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="435"/>
+		<item key="DIALOG_Y_ORIGIN" value="142"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="579"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
 </section>

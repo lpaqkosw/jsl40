@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>insert2</title>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+table, th, td {
+	border: 1px solid #ccc;
+}
+
+.shoplist {
+	margin: 0 auto;
+}
+
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.container{
+	border: 1px solid red;
+	width: 500px;
+	height: 200px;
+}
+</style>
+<script type="text/javascript">
+	function calc(){
+		var kor = score.t_kor.value;
+		var eng = score.t_eng.value;
+		var math = score.t_eng.value;
+		var tot = (parseInt(kor) + parseInt(eng)+ parseInt(math));
+		alert(
+				"kor: "+ kor+"\n"+
+				"eng: "+ eng+"\n"+
+				"math: "+ math+"\n"+
+				"\ntot: "+ (parseInt(kor) + parseInt(eng)+ parseInt(math))
+		);
+		
+		score.t_tot.value = tot;
+		var avg = (tot/3).toFixed(2);
+		score.t_avg.value = avg;
+		if(avg >= 80){
+			score.t_pf.value = "pass";
+		}
+		else{
+			score.t_pf.value = "fail";
+		}
+		
+		
+		
+		
+		
+	}
+	
+</script>
+</head>
+<body>
+	<div class="container">
+		<form name="score"> 
+		<!-- 
+		name = 변수 
+		value = 변수에 들어가는 값
+		name에 여러 value가 들어가면 배열이 됨
+		-->
+			<table class="shoplist">
+				<tr>
+					<th>국어</th>
+					<td><input type="text" name="t_kor"></input></td>
+				</tr>
+				<tr>
+					<th>영어</th>
+					<td><input type="text" name="t_eng"></input></td>
+				</tr>
+				<tr>
+					<th>수학</th>
+					<td><input type="text" name="t_math"></input></td>
+				</tr>
+				<tr>
+					<th>총점</th>
+					<td><output type="text" name="t_tot"></output></td>
+				</tr>
+				<tr>
+					<th>평균</th>
+					<td><output type="text" name="t_avg"></output></td>
+				</tr>
+				<tr>
+					<th>평가</th>
+					<td><output type="text" name="t_pf"></output></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="button" value="계산" onclick="calc()">&nbsp;&nbsp;
+						
+						<!-- 
+						submit: 입력받은 모든값을 form의 action=""프로그램으로 전송해서 처리해라
+						button: 사용자 정의 
+						 -->
+						
+						<input type="reset" value="다시쓰기"> 
+						<!-- 
+						reset: 리셋
+						 -->
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="footer">
+		<p>copyright All rights reserved.</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>정처산기 실기 연습</title>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#aaa {
+	color: rgb(255, 0, 0);
+	font-size: 26px;
+	letter-spacing: -1px;
+	margin-bottom: 60px;
+	text-align: center;
+	background: #00f;
+}
+
+.bbb {
+	color: #cccccc;
+	font-size: 18px;
+	font-family: "궁서체";
+	border: 1px solid #cccccc;
+	width: 600px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	/* line-heigth == height  >>>>> center align height */
+	margin: 0 auto;
+	background: #00f;
+}
+
+.list {
+	list-style: none;
+}
+
+/* 하위 선택자*/
+.navi .list li {
+	display: inline-block; /* inline vs block */
+	width: 120px;
+	text-align: center;
+}
+
+a {
+	/*a 태그에 직접 스타일 적용 */
+	color: #000;
+	text-decoration: none;
+}
+
+table, th, td {
+	border: 1px solid #ccc;
+}
+
+.shoplist {
+	margin: 0 auto;
+}
+
+#aaa h1{
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<div id="aaa">
+		<h1>정처산기</h1>
+		&lt;div&gt;태그는&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 그룹을 만듬&lt;/div&gt;
+	</div>
+	<div class="bbb">아아아아아아</div>
+	<div class="navi">
+		<!-- unordered list -->
+		<ul class="list">
+			<li><a href="com.jsp">회사소개</a></li>
+			<li><a href="insert.html">상품등록</a></li>
+			<li><a href="search.jsp">상품검색</a></li>
+			<li><a href="member.jsp?command=aaa">회원가입</a></li>
+			<li><a href="delete.html">상품삭제</a></li>
+		</ul>
+	</div>
+	<div class="container">
+		<table class="shoplist">
+			<tr>
+				<th>번호</th>
+				<th>제목</th>
+				<th>작성일</th>
+				<td>조회수</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>연습</td>
+				<td>2020-02-10</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td colspan="4"><a href="insert.html">글쓰기</a></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
