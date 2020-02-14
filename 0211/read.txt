@@ -1,3 +1,8 @@
 02.11
 
 db연동
+
+singleton DB
+
+DTO/VO - java beans
+DAO - db연산

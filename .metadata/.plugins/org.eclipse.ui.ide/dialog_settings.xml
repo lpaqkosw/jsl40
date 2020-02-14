@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\JSLHRD\eclipse-workspace\0212"/>
+		<item value="C:\Users\JSLHRD\eclipse-workspace\0211"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0210"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0207"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0206"/>
