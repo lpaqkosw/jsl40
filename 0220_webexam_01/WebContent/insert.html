@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>학생정보 입력</title>
+</head>
+<body>
+<center>
+	<table border=1 width=500>
+		<tr>
+			<th colspan=2>학생정보등록</th>
+		</tr>
+		<tr>
+			<th>학번</th>
+			<td><input type=text size=5 name=id></td>
+		</tr>
+		<tr>
+			<th>이름</th>
+			<td><input type=text size=5 name=name></td>
+		</tr>
+		<tr>
+			<th>성별</th>
+			<td>
+				<input type=radio name="gender" value="M">남자 
+				<input type=radio name="gender" value="F">여자
+			</td>
+		</tr>
+		<tr>
+			<th>직업</th>
+			<td>
+				<select name=job>
+					<option>직업선택</option>
+					<option value=학생>학생</option>
+					<option value=교사>교사</option>
+					<option value=무직>무직</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th>취미</th>
+			<td>
+				<input type=checkbox name=hobby value=낚시>낚시
+				<input type=checkbox name=hobby value=골프>골프
+				<input type=checkbox name=hobby value=영화>영화
+			</td>
+		</tr>
+		<tr>
+			<td colspan=2 >
+				<center>
+					<input type="button" value="등록">
+					<input type="button" value="취소">
+				</center>
+			</td>
+		</tr>
+	</table>
+</center>
+	<form action=""></form>
+</body>
+</html>

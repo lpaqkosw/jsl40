@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Program Files\HRD_Book3"/>
+		<item value="C:\Users\JSLHRD\Desktop\JSL_Sample"/>
+		<item value="C:\Users\JSLHRD\Desktop\HRD_Book3"/>
+		<item value="C:\Users\JSLHRD\eclipse-workspace\servletboard\src\board\servlet"/>
+		<item value="C:\Users\JSLHRD\eclipse-workspace\servletmember"/>
+		<item value="C:\Users\JSLHRD\eclipse-workspace\새 폴더 (2)\servletMember"/>
+		<item value="C:\Users\JSLHRD\eclipse-workspace\0219"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0212"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0211"/>
 		<item value="C:\Users\JSLHRD\eclipse-workspace\0210"/>
@@ -28,5 +35,11 @@
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="579"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="ResourceNavigator">
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1578012005679"/>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>

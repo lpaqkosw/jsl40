@@ -1,0 +1,7 @@
+Webserver (정적)
+	- apache
+	- iis
+	- gws
+
+WAS(동적)
+	- tomcat

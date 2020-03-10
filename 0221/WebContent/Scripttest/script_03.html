@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function send(){
+		for(x=0,flag=0; x< input.sex.length; x++){
+			if(input.sex[x].checked){
+				flag=1;
+				break;
+			}
+		}
+		if(!flag){
+			alert("check sex");
+			return;
+		}
+	
+		for(y=0,flag2=0; y< input.fav.length; y++){
+			if(input.fav[y].checked){
+				flag2+=1;
+				break;
+			}
+		}
+		if(flag2<1){
+			alert("check at least one hobby");
+			input.fav[0].focus();
+			return;
+		}
+		
+		if(input.job.selectedIndex==0){
+			alert("select job");
+			input.job.focus();
+			return;
+		}
+		
+		input.action="script_03_pro.jsp";
+		input.method="post";
+		input.submit();
+	}
+	
+	function clear1(){
+		input.reset();
+	}
+</script>
+</head>
+<body>
+	<form name="input" method="post">
+		<table border="1" width="300">
+			<tr>
+				<td>성별</td>
+				<td>
+				<input type="radio" name="sex" value="F">여
+				<input type="radio" name="sex" value="M">남				
+				</td>
+			</tr>
+			<tr>
+				<td>취미</td>
+				<td>
+					<input type="checkbox" name="fav" value="야구">야구
+					<input type="checkbox" name="fav" value="축구">축구
+					<input type="checkbox" name="fav" value="농구">농구
+					<input type="checkbox" name="fav" value="배구">배구
+				</td>
+			</tr>
+			<tr>
+			<td colspan="2">
+				<select name="job">
+					<option>직업선택</option>
+					<option value="학생">학생</option>
+					<option value="교사">교사</option>
+					<option value="군인">군인</option>
+					<option value="무직">무직</option>
+				</select>
+			
+			</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="button" value="send" onclick="send()">
+					<input type="button" value="clear" onclick="clear1()">
+				</td>
+			</tr>
+		
+		
+		</table>
+	
+	
+	
+	
+	
+	
+	</form>
+</body>
+</html>
