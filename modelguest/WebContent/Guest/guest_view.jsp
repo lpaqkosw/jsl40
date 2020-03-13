@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ page import = "model.*, java.util.List" %>
+<%@ page import = "hrdkorea.*, java.util.List" %>
 <%
 	int idx = Integer.parseInt(request.getParameter("idx"));
 	GuestDAO dao = new GuestDAO();

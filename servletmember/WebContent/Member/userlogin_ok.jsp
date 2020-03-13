@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ page import = "model.*, java.util.*" %>
+<%@ page import = "hrdkorea.*, java.util.*" %>
 <%
 	String userid= request.getParameter("userid");
 	String passwd = request.getParameter("passwd");

@@ -17,7 +17,7 @@ public class EmailVerification {
 		//sender Info
 		final String host = "smtp.naver.com";
 		final String user="jidekosw@naver.com";//change accordingly  
-		final String password="!jHL20556785";//change accordingly  
+		final String password="";//change accordingly  
 	    
 		//Get and define session props
 		Properties props = new Properties();  
@@ -55,7 +55,7 @@ public class EmailVerification {
 		//sender Info
 		final String host = "smtp.naver.com";
 		final String user="jidekosw@naver.com";//change accordingly  
-		final String password="!jHL20556785";//change accordingly  
+		final String password="";//change accordingly  
 	    
 		//Get and define session props
 		Properties props = new Properties();  

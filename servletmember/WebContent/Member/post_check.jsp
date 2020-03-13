@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ page import = "model.*, java.util.*" %>
+<%@ page import = "hrdkorea.*, java.util.*" %>
 
 <%
 	request.setCharacterEncoding("utf-8");
