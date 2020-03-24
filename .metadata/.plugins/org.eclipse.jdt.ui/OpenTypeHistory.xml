@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=SampleMVC/src&lt;sample.action{Action.java[Action" modifiers="513" timestamp="1584319570247"/>
+<typeInfo handle="=SampleMVC/C:\/Program Files\/Java\/jre1.8.0_231\/lib\/rt.jar&lt;com.sun.security.auth.callback(DialogCallbackHandler$Action.class[Action" modifiers="1546" timestamp="1576457367185"/>
+</typeInfoHistroy>

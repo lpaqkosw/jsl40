@@ -15,8 +15,8 @@ import javax.mail.internet.MimeMessage;
 public class EmailVerification {  
 	public void sendMail(String email) {  
 		//sender Info
-		final String host = "smtp.gmail.com";
-		final String user="jaehoonlee19942@gmail.com";//change accordingly  
+		final String host = "";
+		final String user="";//change accordingly  
 		final String password="";//change accordingly  
 	    
 		//Get and define session props

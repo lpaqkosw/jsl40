@@ -106,11 +106,15 @@
 				
 
 			
-			<Context docBase="exUser" path="/exUser" reloadable="true" source="org.eclipse.jst.jee.server:exUser">
-				<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="1234" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521/XE" username="jsl40"/>
 			
+			<Context docBase="SampleMVC" path="/" reloadable="true" source="org.eclipse.jst.jee.server:SampleMVC">
+			<Resource name="jdbc/myoracle" auth="Container"
+              type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@127.0.0.1:1521:XE"
+              username="jsl40" password="1234" maxTotal="20" maxIdle="10"
+              maxWaitMillis="-1"/>
 			</Context>
-			<Context docBase="HRD_Book3" path="/HRD_Book3" reloadable="true" source="org.eclipse.jst.jee.server:HRD_Book3"/><Context docBase="StudentJSP" path="/StudentJSP" reloadable="true" source="org.eclipse.jst.jee.server:StudentJSP"/><Context docBase="StudentServlet" path="/" reloadable="true" source="org.eclipse.jst.jee.server:StudentServlet"/></Host>
+			</Host>
 		</Engine>
 	</Service>
 </Server>
